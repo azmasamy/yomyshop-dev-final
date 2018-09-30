@@ -9,7 +9,7 @@
 <body>
 	<header>
 		<h1>
-			<a href="">
+			<a href="http://yomyshop-dev.local/">
 				<img class="yomy-icon" src= "img/yomy-icon.png" /> </br></br>
 				YomyShop
 			</a>
