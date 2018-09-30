@@ -18,8 +18,8 @@
 
 	<div id="main">
 		<ul id="menu">
-			<li><a href="#">View Meals</a></li>
-			<li><a href="#">About Us</a></li>
+			<li><a href="meals.php">View Meals</a></li>
+			<li><a href="aboutus.php">About Us</a></li>
 		</ul>
 
 	</div>
