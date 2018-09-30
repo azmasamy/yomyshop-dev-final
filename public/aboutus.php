@@ -7,28 +7,15 @@
 </head>
 
 <body>
-	<header>
-		<h1>
-			<a href="http://yomyshop-dev.local/">
-				<img class="yomy-icon" src= "img/yomy-icon.png" /> </br></br>
-				YomyShop
-			</a>
-		</h1>
-	</header>
-
+	<?php require_once '../includes/header.php'; ?>
 	<div id="main">
 		<ul id="menu">
 			<li><a href="meals.php">View Meals</a></li>
 			<li><a href="aboutus.php">About Us</a></li>
 		</ul>
 	</div>
-	<div class="expanding-wrapper">
-		<img class="expanding-wrapper-img" src="img/bg.jpeg" alt="">
-	</div>
-	<footer>
 
-	</footer>
-
+	<?php require_once '../includes/footer.php'; ?>
 
 </body>
 </html>

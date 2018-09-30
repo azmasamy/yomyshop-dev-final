@@ -1,35 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<title>YomyShop - Istanbul</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" media="all" href="css/public.css">
-</head>
+
+<?php require_once '../includes/header.php'; ?>
 
 <body>
-	<header>
-		<h1>
-			<a href="http://yomyshop-dev.local/">
-				<img class="yomy-icon" src= "img/yomy-icon.png" /> </br></br>
-				YomyShop
-			</a>
-		</h1>
-	</header>
-
 	<div id="main">
 		<ul id="menu">
 			<li><a href="meals.php">View Meals</a></li>
 			<li><a href="aboutus.php">About Us</a></li>
 		</ul>
-
 	</div>
+
 	<div class="expanding-wrapper">
-		<img class="expanding-wrapper-img" src="img/bg.jpeg" alt="">
+		<img id="super-hero-image" src="img/bg.jpeg" alt="">
 	</div>
-	<footer>
-
-	</footer>
-
 
 </body>
 </html>
