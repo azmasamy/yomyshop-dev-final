@@ -7,13 +7,19 @@
 </head>
 
 <body>
-	<?php require_once '../includes/header.php'; ?>
+	<?php require_once '../private/includes/header.php'; ?>
 	<div id="main">
 		<ul id="menu">
 			<li><a href="meals.php">View Meals</a></li>
 			<li><a href="aboutus.php">About Us</a></li>
 		</ul>
+		<div class="content">
+			<h1>Content Goes Here</h1>
+		</div>
+
 	</div>
+
+
 
 	<?php require_once '../includes/footer.php'; ?>
 

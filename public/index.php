@@ -1,5 +1,5 @@
 
-<?php require_once '../includes/header.php'; ?>
+<?php require_once '../private/includes/header.php'; ?>
 
 <body>
 	<div id="main">
