@@ -22,6 +22,9 @@
             <a href=<?php echo WWW_ROOT . "cats/index.php"?>>Categories</a></li>
             <li class =<?php if ($selected == "meals") echo 'active'; else echo '' ?>>
               <a href=<?php echo WWW_ROOT . "meals/index.php"?>>Meals</a></li>
+
+              <li class =<?php if ($selected == "admins") echo 'active'; else echo '' ?>>
+                <a href=<?php echo WWW_ROOT . "staff/index.php"?>>Admins</a></li>
             </ul>
           </div>
         </nav>
