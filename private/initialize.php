@@ -15,5 +15,6 @@
 
   $db = db_connect();
   Category::set_database($db);
+  MenuItem::set_database($db);
 
 ?>

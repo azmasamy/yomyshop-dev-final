@@ -17,14 +17,14 @@
       </div>
       <ul class="nav navbar-nav">
         <li class =<?php if ($selected === "home") echo "active"; else echo "" ?>>
-          <a href= <?php echo WWW_ROOT . "index.php"?>>Home</a></li>
+          <a href= <?php echo WWW_ROOT . "/admin/index.php"?>>Home</a></li>
           <li class =<?php if ($selected == "cats") echo 'active'; else echo '' ?>>
-            <a href=<?php echo WWW_ROOT . "cats/index.php"?>>Categories</a></li>
+            <a href=<?php echo WWW_ROOT . "/admin/cats/index.php"?>>Categories</a></li>
             <li class =<?php if ($selected == "meals") echo 'active'; else echo '' ?>>
-              <a href=<?php echo WWW_ROOT . "meals/index.php"?>>Meals</a></li>
+              <a href=<?php echo WWW_ROOT . "/admin/meals/index.php"?>>Meals</a></li>
 
               <li class =<?php if ($selected == "admins") echo 'active'; else echo '' ?>>
-                <a href=<?php echo WWW_ROOT . "staff/index.php"?>>Admins</a></li>
+                <a href=<?php echo WWW_ROOT . "/admin/staff/index.php"?>>Admins</a></li>
             </ul>
           </div>
         </nav>

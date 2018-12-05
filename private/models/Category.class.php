@@ -84,7 +84,7 @@ public function delete()
 }
   public function find_all()
   {
-    $sql = "Select * from category";
+    $sql = "SELECT * from category";
     $cat_array = self::find_by_sql($sql);
 
     return $cat_array;

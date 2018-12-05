@@ -57,7 +57,7 @@
   ?>
   <?php
   //get the category information related to the id sent
-  db_connect();
+
   $cat = Category::find_by_id($_GET['id']);
   //print_r($cat);
   //die("HH");
