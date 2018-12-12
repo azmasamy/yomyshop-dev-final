@@ -21,7 +21,7 @@
 
 
 
-	<?php require_once '../includes/footer.php'; ?>
+	<?php require_once '../private/includes/footer.php'; ?>
 
 </body>
 </html>
