@@ -13,6 +13,11 @@
     //die();
     $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 
+    echo $target_file;
+    echo "<br>";
+    echo $_FILES['fileToUpload']['error'];
+    echo "<br>";
+
     // Check if image file is a actual image or fake image
     if(isset($_POST["submit"])) {
       if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
